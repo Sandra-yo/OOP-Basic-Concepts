@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        GeometricFigure triangle = new GeometricFigure("Square"); 
+        System.out.println(triangle.myName());
+        System.out.println("My perimeter is: "+triangle.calculatePerimeter());
+        
     }
 }
